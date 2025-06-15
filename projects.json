@@ -50,5 +50,18 @@
       "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80",
       "https://images.unsplash.com/photo-1485827404703-89b55fcc595f?auto=format&fit=crop&q=80"
     ]
+  },
+  {
+    "id": 2,
+    "title": "AI Image Recognition",
+    "github": "https://github.com/yourusername/ai-image",
+    "description": "Machine learning project using TensorFlow for real-time image recognition. Includes custom model training and web interface for live camera feed processing.",
+    "longDescription": "An advanced AI-powered image recognition system capable of identifying objects in real-time.\n\nKey Features:\n• Real-time object detection\n• Custom model training interface\n• Support for multiple camera inputs\n• Performance optimization for edge devices\n\nTechnical Implementation:\n1. Model architecture design and training\n2. Integration with web cameras\n3. Backend processing optimization\n4. Frontend development for real-time display",
+    "tech": ["Python", "TensorFlow", "OpenCV", "Flask"],
+    "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595f?auto=format&fit=crop&q=80"
+    ]
   }
 ]
