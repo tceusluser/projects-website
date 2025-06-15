@@ -52,7 +52,7 @@
     ]
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "AI Image Recognition",
     "github": "https://github.com/yourusername/ai-image",
     "description": "Machine learning project using TensorFlow for real-time image recognition. Includes custom model training and web interface for live camera feed processing.",
