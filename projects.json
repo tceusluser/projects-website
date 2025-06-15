@@ -1,0 +1,86 @@
+const projects = [
+  {
+    id: 1,
+    title: "E-Commerce Platform",
+    github: "https://github.com/yourusername/ecommerce",
+    description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Implements secure payment processing, real-time inventory management, and responsive design.",
+    longDescription: `
+      This e-commerce platform was developed to provide a complete online shopping experience.
+      
+      Key Features:
+      • Secure user authentication and authorization
+      • Real-time inventory management system
+      • Integration with Stripe for payment processing
+      • Responsive design for all devices
+      • Admin dashboard for product management
+      
+      Development Process:
+      1. Initial planning and architecture design
+      2. Frontend development using React and TailwindCSS
+      3. Backend API development with Node.js
+      4. Database design and implementation with MongoDB
+      5. Integration of payment gateway and security features
+      6. Testing and deployment
+    `,
+    tech: ["React", "Node.js", "MongoDB", "Stripe"],
+    image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1557821956-31f666ce48db?auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    id: 2,
+    title: "AI Image Recognition",
+    github: "https://github.com/yourusername/ai-image",
+    description: "Machine learning project using TensorFlow for real-time image recognition. Includes custom model training and web interface for live camera feed processing.",
+    longDescription: `
+      An advanced AI-powered image recognition system capable of identifying objects in real-time.
+      
+      Key Features:
+      • Real-time object detection
+      • Custom model training interface
+      • Support for multiple camera inputs
+      • Performance optimization for edge devices
+      
+      Technical Implementation:
+      1. Model architecture design and training
+      2. Integration with web cameras
+      3. Backend processing optimization
+      4. Frontend development for real-time display
+    `,
+    tech: ["Python", "TensorFlow", "OpenCV", "Flask"],
+    image: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1485827404703-89b55fcc595f?auto=format&fit=crop&q=80"
+    ]
+  },
+  {
+    id: 3,
+    title: "Blockchain Voting System",
+    github: "https://github.com/yourusername/blockchain-voting",
+    description: "Decentralized voting system built on Ethereum blockchain. Features secure voter authentication, vote verification, and real-time result tabulation.",
+    longDescription: `
+      A secure and transparent voting system leveraging blockchain technology.
+      
+      Key Features:
+      • Secure voter authentication
+      • Immutable vote recording
+      • Real-time vote counting
+      • Transparent audit trail
+      
+      Implementation Details:
+      1. Smart contract development
+      2. Frontend interface creation
+      3. Security implementation
+      4. Testing and deployment to testnet
+    `,
+    tech: ["Solidity", "Web3.js", "React", "Ethereum"],
+    image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&q=80",
+    gallery: [
+      "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&q=80",
+      "https://images.unsplash.com/photo-1639322537504-6427a16b0a28?auto=format&fit=crop&q=80"
+    ]
+  }
+] 
